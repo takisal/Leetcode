@@ -9,7 +9,6 @@ var findMaximumNumber = function (k, x) {
     let d = 0;
     let numStr = num.toString(2);
     let pbi = new Array();
-    populateArray(pbi, num);
     let t = 0;
     let n = 1;
     for (let i = numStr.length - 1; i >= 0; i--) {
