@@ -16,6 +16,7 @@ public:
         vector<long long> fromLeftValue = {};
         long long t = 0;
         long long n = 1;
+        
         while (numString[0] == '0')
         {
             numString.erase(0, 1);
